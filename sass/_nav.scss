@@ -2,6 +2,7 @@
 header {
      background-color: $color__block;
      display: flex;
+     text-align: center;
      nav {
           margin-left: auto;
      }
@@ -17,7 +18,7 @@ header {
                text-decoration:none;
                font-family: $font__heading;
                &:hover {
-                    background-color: darken($color__grey, 10%); 
+                    background-color: darken($color__block, 10%); 
                }
           }
      }
